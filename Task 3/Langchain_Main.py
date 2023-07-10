@@ -95,12 +95,11 @@ def main():
 
     dialogue_collection_raw = process_dialogues(dialogues)
 
-    print("Following are the sounds and sources of those spunds also: \n", dialogue_collection_raw)
+    print("Following are the sounds and sources of those spunds also:\n", dialogue_collection_raw)
 
     output_raw_file = 'output_langchain_Sounds_task3.txt'
    
     write_dialogues_to_file(dialogue_collection_raw, output_raw_file)
-
 
 if __name__ == "__main__":
     main()

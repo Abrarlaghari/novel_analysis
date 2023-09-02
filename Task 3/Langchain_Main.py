@@ -75,7 +75,7 @@ def write_dialogues_to_file(dialogue_collection_raw, output_raw_file):
             file.write("%s\n" % line)
 
 def main():
-    api_key = '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'
+    api_key = '***'
 
     chat_model = initialize_chat_model(api_key)
 

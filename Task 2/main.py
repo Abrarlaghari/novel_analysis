@@ -12,7 +12,7 @@ from langchain.prompts.chat import (
 
 if __name__ == "__main__":
     
-    api_key = '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'
+    api_key = '***'
 
     chat_model = utility_func.initialize_chat_model(api_key)
 

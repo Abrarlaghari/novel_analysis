@@ -9,7 +9,7 @@ from langchain.prompts.chat import (
     HumanMessagePromptTemplate,
 )
 
-api_key = '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'
+api_key = '***'
 
 chat = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo-16k", max_tokens=15000, openai_api_key=api_key, request_timeout=1500)
 

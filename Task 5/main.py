@@ -6,7 +6,7 @@ from langchain import LLMChain
 
 if __name__ == "__main__":
     
-    api_key = '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'
+    api_key = '***'
 
     chat_model = utilities.initialize_chat_model(api_key)
 
